@@ -1,0 +1,5 @@
+[
+  {"id":"r1","prompt":"List two setup steps","response":"- Install deps\n- Run tests","instruction_check":"followed","expected_format":"bullets"},
+  {"id":"r2","prompt":"Return JSON status","response":"not-json","instruction_check":"failed","expected_format":"json"},
+  {"id":"r3","prompt":"Explain validation","response":"Check required fields before review.","instruction_check":"","expected_format":"text"}
+]
